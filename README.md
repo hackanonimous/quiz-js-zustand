@@ -1,8 +1,24 @@
-# React + Vite
+# App de Cuestionario
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+App que genera un cuestionario de 10 preguntas aleatorias sobre los lenguajes de programacion javascript y python.
+## dependencias
+ - MUI (para el diseño)
+```bash
+ pnpm install @mui/material @emotion/react @emotion/styled
+```
+ - roboto, icons-material (iconos y fuentes)
+```bash
+ pnpm install @fontsource/roboto @mui/icons-material
+```
+ - zustand (para el manejo de estado)
+```bash
+ pnpm install zustand
+```
+ - React syntax highlighter (componente para mostrar codigo)
+```bash
+ pnpm install react-syntax-highlighter
+```
+ - confeti (aminacion de confeti cuando la respuesta es correcta)
+```bash
+ pnpm install canvas-confetti
+```
